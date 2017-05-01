@@ -6,7 +6,7 @@ class FilmBox extends React.Component {
   constructor(props){
     super(props)
     this.state = {
-      data: [ { id: 1, name: "A Dog's Purpose" }, { id: 2, name: "Sleepless" }, { id: 3, name: "Mindhorn" }, { id: 4, name: "Unlocked" }, { id: 5, name: "The Journey" } ]
+      data: [ { id: 1, name: "A Dog's Purpose", showtimes: "18:30, 21:00" }, { id: 2, name: "Sleepless", showtimes: "18:45, 21:30" }, { id: 3, name: "Mindhorn", showtimes: "17:00, 19:00" }, { id: 4, name: "Unlocked", showtimes: "20:30" }, { id: 5, name: "The Journey", showtimes: "20:30" } ]
     }
   }
 
