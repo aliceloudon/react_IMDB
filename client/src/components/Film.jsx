@@ -7,9 +7,6 @@ const Film = (props) => {
         <h4 className='filmName'>
           {props.name}
         </h4>
-        <p>
-          {props.children}
-        </p>
       </div>
     )
 
