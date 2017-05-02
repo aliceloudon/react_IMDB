@@ -1,5 +1,6 @@
 import React from 'react'
 import Film from './Film'
+import Showtime from './Showtime'
 
 class FilmList extends React.Component {
 
