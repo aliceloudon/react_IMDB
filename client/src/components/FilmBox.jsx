@@ -12,7 +12,8 @@ class FilmBox extends React.Component {
 
   render(){
     return (
-      <div className='film'>
+      <div className='filmBox'>
+        <h2>UK Opening This Week</h2>
         <FilmList data={this.state.data}/>
       </div>
     )
